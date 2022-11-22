@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html Match app!</title>
+    <meta name="description" content="een applicatie voor... te gaan matchen">
+</head>
+<body>
+    <header>
+        <H1>Match app!</H1> 
+    </header>
+    <main>
+<section id="intro">
+    <h2>invuldocument</h2>
+    <img src="" alt="Dit is een afbeelding van een hart" width="150">
+    <p>Klik hier voor <a href="http//google.com">meer foto's van klaslokalen.</a>  </p>
+</section>
+<section id="lijstjes">
+    <h2>Lijstjes</h2>
+    <h3>dingen die in een klaslokaal mogen</h3>
+    <ul>
+        <li>zwijgen</li>
+        <li>luisteren</li>
+        <li>schrijven</li>
+        <li>volgen</li>
+    </ul>
+    <h3>dingen die niet mogen in een klaslokaal</h3>
+    <ol>
+        <li>over de leerkracht heen praten</li>
+        <li>eten</li>
+        <li>gamen</li>
+        <li>smartphone</li>
+    </ol>
+</section>
+
+<section>
+<form action="">
+    <fieldset>
+        <legend>welke kleur wil ik</legend> 
+        <input type="radio" name="muren"  value="blauw" >blauw
+        <input type="radio" name="muren" value="rood">rood
+        <input type="radio" name="muren" value="geel" >geel
+ 
+    </fieldset>
+    <fieldset>
+        <legend>mijn leeftijd</legend>
+        <input type="number" name="leeftijd"
+        placeholder="18">
+    </fieldset>
+    <fieldset>
+        <legend>wat is er in het lokaal aanwezig</legend>
+        <input type="checkbox" name="aanwezig" value="banken">banken
+        <input type="checkbox" name="aanwezig" value="stoelen">stoelen
+        <input type="checkbox" name="aanwezig" value="tumors">tumors
+    </fieldset>
+    <fieldset>
+        <legend>hoe heeft u van ons gehoord </legend>
+        <select name="enquette">
+            <option value="vrienden">Vrienden</option>
+            <option value="zoekmachine">Zoekmachine</option>
+            <option value="advertentie">Advertentie</option>
+        </select>
+    </fieldset><br>
+    <button type="submit">verstuur dit formulier</button>
+    <button type="reset">Reset</button>
+</form>
+
+</section>
+
+    
+</main>
+
+</body>
+</html>
