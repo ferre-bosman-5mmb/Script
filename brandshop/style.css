@@ -1,0 +1,25 @@
+body{
+    background-color: azure;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 10;
+    min-width: 150px;
+}
+
+    header{
+        font-size: large;
+    }
+
+    header nav li {
+        display: inline;
+    }
+    
+    .categories ul {
+        display: flex;
+        justify-content: space-between;
+    }
