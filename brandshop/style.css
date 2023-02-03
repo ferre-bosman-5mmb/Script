@@ -1,5 +1,5 @@
 body{
-    background-color: azure;
+    background-color: darkred
 }
 .flexcontainer{
     display: flex;
@@ -23,3 +23,17 @@ img{
         display: flex;
         justify-content: space-between;
     }
+    div nav ul {
+    color: silver;
+        
+    }
+    li{
+        color: silver
+    }
+    header i {
+        margin-right: 5mm;
+        color: silver;
+    }
+   header{
+   background-color: black; color: black;
+   }
