@@ -1,11 +1,21 @@
+  @import url("https://use.typekit.net/smp0qkt.css");
+
+
 body{
-    background-color: darkred
+    background-color: darkred;
+    font-family: "griffon", serif;
+
 }
 .flexcontainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.flexcontainer img {
+    flex: 1;
+}
+
 img{
     width: 10;
     min-width: 150px;
@@ -25,6 +35,8 @@ img{
     }
     div nav ul {
     color: silver;
+    font-family: "griffon", serif;
+
         
     }
     li{
@@ -32,8 +44,25 @@ img{
     }
     header i {
         margin-right: 5mm;
-        color: silver;
+        color: white;
     }
    header{
    background-color: black; color: black;
    }
+   a:hover{
+    background-color: darkred;
+    padding: 10px;
+   }
+
+
+  .videoframe video {
+    width: 100%;
+  }
+ div h3 {
+    color: silver;
+    display:flex
+ }
+ div p {
+    color: silver;
+ }
+ 
