@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <title>Luxury V8's</title>
+</head>
+<body>
+  <header>
+    <div class="header-row-1">
+      <div class="logo-container">
+        <img src="images/YLACQslk_400x400.jpg" alt="">
+        <h1>Luxury V8's</h1>
+      </div> 
+      
+       
+
+<div class="categories"
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-row-2">
+      <div class="hero-text-container">
+        <h2>Where Muscle Meets Luxury</h2>
+        <h3>Experience the Power of Our Cars</h3>
+        <p>Our mission is to bring you the finest combination of muscle and luxury in the automotive world. We strive to provide an unparalleled driving experience that you'll never forget. </p>
+        <button>Explore Our Cars</button>
+      </div>
+    </div>
+    <div class="header-row-3">
+      <div class="social-media-container">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>
