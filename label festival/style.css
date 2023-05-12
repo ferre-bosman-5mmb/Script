@@ -3,8 +3,11 @@ img {
   width: 100%;
 
 }
-*{
+
+* {
+  margin: 0;
   box-sizing: border-box;
+  padding: 0;
 }
 
 header {
@@ -46,24 +49,28 @@ main {
 footer .flexcontainer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  
+  justify-content: space-between;
   padding: 20px;
   background-color: black;
   color: white;
   margin: 10px;
-  
+
 }
-footer h3{
+
+footer h3 {
   color: red;
   font-family: get schwifty;
 }
+
 footer {
   background-color: black;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
-footer h6{
+
+footer h6 {
   color: grey;
   display: flex;
   justify-content: center;
