@@ -1,7 +1,6 @@
 img {
   display: block;
   width: 100%;
-
 }
 
 * {
@@ -38,6 +37,7 @@ main {
 }
 
 
+
 .gridcontainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -49,7 +49,7 @@ main {
 footer .flexcontainer {
   display: flex;
   justify-content: center;
-  
+
   justify-content: space-between;
   padding: 20px;
   background-color: black;
@@ -74,4 +74,25 @@ footer h6 {
   color: grey;
   display: flex;
   justify-content: center;
+}
+
+#act {
+  display: flex;
+  align-items: center;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+section#act p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  align-items: center;
+
+}
+#video{
+  display: flex;
+  align-items: center;
+  
 }
