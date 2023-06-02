@@ -9,6 +9,21 @@ img {
   padding: 0;
 }
 
+header input {
+  display: none;
+
+}
+
+header nav {
+  font-family: Get schwifty;
+
+}
+
+header label {
+  display: none;
+  color: white;
+}
+
 header {
   background-color: black;
   display: grid;
@@ -36,20 +51,15 @@ main {
   font-family: Get schwifty;
 }
 
-
-
 .gridcontainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
 
-
-
 footer .flexcontainer {
   display: flex;
   justify-content: center;
-
   justify-content: space-between;
   padding: 20px;
   background-color: black;
@@ -89,10 +99,25 @@ section#act p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: black;
   align-items: center;
-
 }
-#video{
+
+#video {
   display: flex;
   align-items: center;
-  
+}
+
+@media (width <= 750px) {
+  header label {
+    display: block;
+  }
+
+  header nav ul {
+    display: none;
+  }
+  header input#burger:checked+label[for="burger"]+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
 }
