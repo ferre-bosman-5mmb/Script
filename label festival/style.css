@@ -118,6 +118,15 @@ section#act p {
     display: flex;
     flex-direction: column;
 }
+.gridcontainer{
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-items: center;
+  gap: 2rem;
+  margin-bottom: 3%;
+
+}
 
 
 }
